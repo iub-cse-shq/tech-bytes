@@ -1,0 +1,156 @@
+*{margin:0; padding:0; outline:0}
+
+body{
+	font-family: arial;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000
+}
+
+.template{
+	width: 960px;
+	margin: 0 auto; 
+}
+
+.clear{
+	overflow: hidden
+}
+
+.headersection{
+	height: 85px;
+	background: #2F2D2E;
+	color: #fff
+}
+
+.headersection h2{
+	font-size: 40px;
+	padding-top: 30px;
+	text-align: center
+}
+
+.navsection{
+	background: #9B999A
+}
+
+.navsection ul{
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+.navsection ul li{
+	display: block;
+	float: left
+}
+
+.navsection ul li a{
+	background: #cdcdcc none repeat scroll 0 0;
+	color: #444;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px;
+	padding: 5px 30px;
+	text-decoration: none
+}
+
+.navsection ul li a:hover{
+	background: #2F2D2E;
+	color: #fff
+}
+
+.contentsection{
+	background: #FFFFFF;
+}
+
+.maincontent{
+	background: #dfdfdf none repeat scroll 0 0;
+	float: left;
+	margin: 15px 15px 15px 0;
+	padding: 10px;
+	width: 650px
+}
+
+.samepost{
+
+}
+
+.samepost h2{
+	border-bottom: 2px solid #555555;
+	font-size: 24px;
+	margin-bottom: 10px;
+	padding: 10px
+}
+
+.samepost img{
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #9B999A;
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+	width: 120px
+}
+
+.samepost p{
+	font-size: 16px;
+	line-height: 23px;
+	text-align: justify
+}
+
+.readmore{
+	float: right;
+	margin-top: 10px
+}
+
+.readmore a{
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #9B999A;
+	border-radius: 3px;
+	color: #333;
+	display: block;
+	font-size: 17px;
+	padding: 4px 8px;
+	text-decoration: none
+}
+
+.readmore a:hover{
+	color: #E16525
+}
+
+.sidebar{
+	background: #dfdfdf none repeat scroll 0 0;
+	float: right;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 255px
+}
+
+.samesidebar{
+
+}
+
+.samesidebar h2{
+	background: #9B999A none repeat scroll 0 0;
+	border-bottom: 2px solid #555555;
+	color: #fff;
+	margin-bottom: 8px;
+	padding: 10px
+}
+
+.samesidebar p{
+	margin-bottom: 10px
+}
+
+.footersection{
+	height: 90px;
+	background: #555555
+}
+
+.footersection p{
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 30px;
+	text-align: center
+}
