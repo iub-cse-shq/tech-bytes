@@ -17,19 +17,44 @@ body{
 }
 
 .headersection{
-	height: 85px;
-	background: #2F2D2E;
-	color: #fff
+	background: #b7801c none repeat scroll 0 0;
+	color: #fff;
 }
 
-.headersection h2{
-	font-size: 40px;
-	padding-top: 30px;
-	text-align: center
+.logo{
+	float: left;
+	width: 430px
+}
+
+.logo img{
+	float: left;
+	margin-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 10px;
+	width: 70px
+}
+
+.logo h2{
+	font-size: 32px;
+	margin-bottom: 11px;
+	margin-top: 40px;
+	color: #fff;
+	text-shadow: 2px 2px 0 #666
+}
+
+.social{
+	float: right;
+	padding-top: 16px;
+	width: 200px;
+}
+
+.social img{
+	width: 40px;
 }
 
 .navsection{
-	background: #9B999A
+	background: #e6af4b none repeat scroll 0 0;
 }
 
 .navsection ul{
@@ -44,19 +69,21 @@ body{
 }
 
 .navsection ul li a{
-	background: #cdcdcc none repeat scroll 0 0;
-	color: #444;
+	background: #c48d29 none repeat scroll 0 0;
+	border: 1px solid #b7801c;
+	border-radius: 2px;
+	color: #fff;
 	display: block;
 	font-size: 20px;
 	font-weight: bold;
 	margin: 5px;
-	padding: 5px 30px;
+	padding: 5px 15px;
 	text-decoration: none
 }
 
 .navsection ul li a:hover{
-	background: #2F2D2E;
-	color: #fff
+	background: #FEF4E5;
+	color: #333
 }
 
 .contentsection{
@@ -64,11 +91,12 @@ body{
 }
 
 .maincontent{
-	background: #dfdfdf none repeat scroll 0 0;
+	background: #fef4e5 none repeat scroll 0 0;
+	border: 1px solid #b7801c;
 	float: left;
 	margin: 15px 15px 15px 0;
-	padding: 10px;
-	width: 650px
+	padding: 8px 20px;
+	width: 628px
 }
 
 .samepost{
@@ -76,19 +104,21 @@ body{
 }
 
 .samepost h2{
-	border-bottom: 2px solid #555555;
-	font-size: 24px;
+	border-bottom: 2px solid #e0d6c7;
+	color: #ac7511;
+	font-size: 25px;
 	margin-bottom: 10px;
 	padding: 10px
 }
 
 .samepost img{
 	background: #fff none repeat scroll 0 0;
-	border: 1px solid #9B999A;
+	border: 1px solid #ebb450;
 	float: left;
 	margin-right: 10px;
 	padding: 5px;
-	width: 120px
+	width: 150px;
+	height: 90px
 }
 
 .samepost p{
@@ -104,9 +134,9 @@ body{
 
 .readmore a{
 	background: #fff none repeat scroll 0 0;
-	border: 1px solid #9B999A;
+	border: 1px solid #b7801c;
 	border-radius: 3px;
-	color: #333;
+	color: #b7801c;
 	display: block;
 	font-size: 17px;
 	padding: 4px 8px;
@@ -118,12 +148,13 @@ body{
 }
 
 .sidebar{
-	background: #dfdfdf none repeat scroll 0 0;
+	background: #fef4e5 none repeat scroll 0 0;
+	border: 1px solid #b7801c;
 	float: right;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	padding: 10px;
-	width: 255px
+	width: 253px
 }
 
 .samesidebar{
@@ -131,9 +162,9 @@ body{
 }
 
 .samesidebar h2{
-	background: #9B999A none repeat scroll 0 0;
-	border-bottom: 2px solid #555555;
-	color: #fff;
+	background: #e6af4b none repeat scroll 0 0;
+	border-bottom: 2px solid #b7801c;
+	color: #333;
 	margin-bottom: 8px;
 	padding: 10px
 }
@@ -144,7 +175,7 @@ body{
 
 .footersection{
 	height: 90px;
-	background: #555555
+	background: #B7801C
 }
 
 .footersection p{
