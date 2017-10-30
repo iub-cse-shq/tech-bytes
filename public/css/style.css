@@ -4,7 +4,8 @@ body{
 	font-family: arial;
 	font-size: 14px;
 	line-height: 18px;
-	color: #000
+	color: #000;
+    background-color: #800517;
 }
 
 .template{
@@ -14,6 +15,37 @@ body{
 
 .clear{
 	overflow: hidden
+}
+
+input[type="text"], input[type="email"] {
+	border: 1px solid #cfc5b6;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	padding: 5px;
+	width: 300px;
+}
+
+textarea{
+	border: 1px solid #cfc5b6;
+	height: 110px;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 300px;
+}
+
+input[type="submit"] {
+	background: #b7801c none repeat scroll 0 0;
+	border: 1px solid #e6af4b;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 1px 10px;
+}
+
+input[type="submit"]:hover {
+	background: #FEF4E5;
+	color: #000;
+
 }
 
 .headersection{
@@ -81,7 +113,7 @@ body{
 	text-decoration: none
 }
 
-.navsection ul li a:hover{
+.navsection ul li a:hover, #active{
 	background: #FEF4E5;
 	color: #333
 }
@@ -103,11 +135,32 @@ body{
 	width: 628px
 }
 
+.about{
+	
+}
+
+.about img{
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #b7801c;
+	float: left;
+	height: 190px;
+	margin-right: 10px;
+	padding: 5px;
+	width: 300px;
+}
+
+.about p{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
 .samepost{
 
 }
 
-.samepost h2{
+.samepost h2,.about h2{
 	border-bottom: 2px solid #e0d6c7;
 	color: #ac7511;
 	font-size: 25px;

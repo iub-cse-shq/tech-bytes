@@ -1,3 +1,5 @@
+/* global $ */
+
 function clearText(field)
 {
     if (field.defaultValue == field.value) field.value = '';
@@ -9,7 +11,7 @@ $(window).load(function() {
 		effect:'random',
 		slices:10,
 		animSpeed:500,
-		pauseTime:2200,
+		pauseTime:3200,
 		startSlide:0, //Set starting Slide (0 index)
 		directionNav:false,
 		directionNavHide:false, //Only show on hover
