@@ -79,6 +79,21 @@ ul,ol{
     background: url("images/body_top_bg.png") repeat-x scroll center top #fff;
     padding-top: 25px;
 }
+
+.blogarticle p{
+    text-align: justify;
+}
+
+.blogimg img{
+    border: 5px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 650px;  
+    height: 500px;
+}
+
 #footer_top_area{
     background: none repeat scroll 0 0 #171716;
     margin-top: 25px;

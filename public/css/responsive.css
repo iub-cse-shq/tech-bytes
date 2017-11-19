@@ -255,14 +255,19 @@ px      68    160    252    344    436    */
 		width: 436px;
 		padding: 36px 22px 48px;
 	}
-	#selectnav1{display: block;
-height: 30px;
-width: 415px;}
-	#nav{display:none;}
+	#selectnav1{
+	  display: block;
+    height: 30px;
+    width: 415px;
+}
+
+	#nav{
+	  display:none;
+}
 .main_content {
-margin-right: 0;
-width: 436px;
-float:none;
+    margin-right: 0;
+    width: 436px;
+    float:none;
 }	
 .pgwSlider > ul > li {
   height: 65px !important;

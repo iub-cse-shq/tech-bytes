@@ -10,6 +10,13 @@ exports.index = function(req, res) {
 	});
 };
 
+exports.post = function(req, res) {
+	res.render('./../public/views/post.ejs', {
+		user: req.user || null,
+		request: req
+	});
+};
+
 exports.about = function(req, res) {
 	res.render('./../public/views/about.ejs', {
 		user: req.user || null,
