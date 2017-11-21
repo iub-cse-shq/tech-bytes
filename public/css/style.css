@@ -73,10 +73,10 @@ ul,ol{
 }
 /* home page style */
 #header_area{
-    background: url("images/header_bg.png") repeat-x scroll 0 0 #000;
+    background: url("/images/header_bg.png") repeat-x scroll 0 0 #000;
 }
 #content_area{
-    background: url("images/body_top_bg.png") repeat-x scroll center top #fff;
+    background: url("/images/body_top_bg.png") repeat-x scroll center top #fff;
     padding-top: 25px;
 }
 
@@ -144,7 +144,7 @@ ul,ol{
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background: url("images/search.png") no-repeat scroll 5px 0px rgba(0, 0, 0, 0);
+    background: url("/images/search.png") no-repeat scroll 5px 0px rgba(0, 0, 0, 0);
     border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color #595957;
     border-image: none;
     border-style: none none none solid;
@@ -176,7 +176,7 @@ ul,ol{
     padding: 5px 15px;
 }
 .header_bottom ul li a:hover{
-    background:#f5f5f5 url(images/menu_item.png) no-repeat scroll left center;
+    background:#f5f5f5 url(/images/menu_item.png) no-repeat scroll left center;
     -webkit-transition: background 300ms ease-in;
     -moz-transition: background 300ms ease-in;
     -ms-transition: background 300ms ease-in;
@@ -185,7 +185,7 @@ ul,ol{
 }
 /* dropdown menu 2nd level*/
 #dropdown{
-    background: url("images/down.png") no-repeat scroll right 8px rgba(0, 0, 0, 0);
+    background: url("/images/down.png") no-repeat scroll right 8px rgba(0, 0, 0, 0);
     padding-right: 2px;
 }
 .header_bottom ul li ul{
@@ -210,7 +210,7 @@ ul,ol{
     padding:10px;
 }
 .header_bottom ul ul li a:hover{
-    background:#f5f5f5 url(images/menu_item.png) no-repeat scroll left center;
+    background:#f5f5f5 url(/images/menu_item.png) no-repeat scroll left center;
     -webkit-transition: background 300ms ease-in;
     -moz-transition: background 300ms ease-in;
     -ms-transition: background 300ms ease-in;
@@ -228,7 +228,7 @@ ul,ol{
     margin-right: 10px;
 }
 .slider{
-    background: url("images/slider_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/images/slider_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
     margin-bottom: 35px;
     padding: 5px;
 }
@@ -236,7 +236,7 @@ ul,ol{
     
 }
 .content_title {
-    background: url("images/latest_post_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/images/latest_post_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
     height: 73px;
     margin-bottom: 15px;
 }
@@ -280,7 +280,7 @@ ul,ol{
     
 }
 .post_detail > a{
-    background: url("images/nav_right.png") no-repeat scroll 130px 4px #ffd500;
+    background: url("/images/nav_right.png") no-repeat scroll 130px 4px #ffd500;
     display: block;
     font-family: oswald light;
     margin-top: 10px;
@@ -377,7 +377,7 @@ ul,ol{
     -o-box-shadow: inset 0px 0px 50px 0px #999999;
 }
 .newsletter form input[type=submit]{
-    background: url("images/nav_right.png") no-repeat scroll 90px 6px #ffd500;
+    background: url("/images/nav_right.png") no-repeat scroll 90px 6px #ffd500;
     border: medium none;
     font-family: oswald light;
     font-size: 14px;
@@ -393,12 +393,12 @@ ul,ol{
     
 }
 .single_sidebar{
-    background: url("images/slider_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/images/slider_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
     padding: 10px;
     margin-bottom:25px;
 }
 .sidebar_title{
-    background: url("images/title_down.png") no-repeat scroll 12px 45px rgba(0, 0, 0, 0);
+    background: url("/images/title_down.png") no-repeat scroll 12px 45px rgba(0, 0, 0, 0);
     height: 73px;
     margin-bottom:15px;
 }
@@ -630,7 +630,7 @@ blockquote{
     width: 100%;
 }
 .more_themes > h2{
-    background: url("images/slider_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/images/slider_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
     font-weight: bold;
     margin-bottom: 30px;
     padding: 8px;
@@ -700,10 +700,10 @@ blockquote{
     float: left;
     margin-left: 15px;
     width: 337px;
-    position:relative;
-    margin-bottom:15px;
-    height:190px;
-    background:url(images/work_bg.png) repeat scroll 0 0 #222;
+    position: relative;
+    margin-bottom: 15px;
+    height: 190px;
+    background: url(/images/work_bg.png) repeat scroll 0 0 #222;
 }
 .single_work:hover img.img_bottom{
     position:absolute;

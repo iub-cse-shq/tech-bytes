@@ -20,7 +20,7 @@ px      68    160    252    344    436    528    620    712    */
   padding: 5px 13px;
 }
 .pgwSlider .ps-current span {
-  background: url("images/slider_arrow_tab.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: url("/images/slider_arrow_tab.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }	
 .main_content {
   margin-right: 0px;
@@ -96,7 +96,7 @@ float:none;
   height: 65px !important;
 }
 .pgwSlider .ps-current span {
-  background: url("images/slider_arrow_small_mobile.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: url("/images/slider_arrow_small_mobile.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .post_detail h2 {
 font-size: 12px !important;
@@ -273,7 +273,7 @@ px      68    160    252    344    436    */
   height: 65px !important;
 }
 .pgwSlider .ps-current span {
-  background: url("images/slider_arrow_wide_mobile.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: url("/images/slider_arrow_wide_mobile.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .post_detail h2 {
   font-size: 20px !important;

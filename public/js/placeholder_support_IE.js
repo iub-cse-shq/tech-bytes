@@ -1,5 +1,5 @@
 /* Copy and paste in footer for active Placeholder text in all older IE browsers */
-				<script type="text/javascript">
+/* global $*/
 					$(function() {
 						var input = document.createElement("input");
 						if(('placeholder' in input)==false) { 
@@ -26,8 +26,7 @@
 									var i = $(this);
 									if(i.val() == i.attr('placeholder'))
 										i.val('');
-								})
+								});
 							});
 						}
 					}); 
-				</script>
