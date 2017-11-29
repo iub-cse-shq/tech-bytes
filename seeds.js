@@ -3,10 +3,10 @@
 var mongoose = require('mongoose');
 var Article = require('./models/Article.js');
 var User = require('./models/User.js');
-mongoose.connection.dropDatabase(error => {
-  console.log('Database not dropped');
+//mongoose.connection.dropDatabase(error => {
+  //console.log('Database not dropped');
   //process.exit(0);
-});
+//});
 
 var user = {
     email: 'abc@def.com',
@@ -38,7 +38,7 @@ var initial = [{
     user:user
 
   }
-]
+];
 
 initial.forEach(function(article) {
     var articles = new Article(article);

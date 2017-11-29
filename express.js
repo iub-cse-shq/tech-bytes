@@ -55,4 +55,4 @@ app.use(passport.initialize());
 
 
   return app;
-}
+};

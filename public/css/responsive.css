@@ -64,13 +64,11 @@ margin-left: 25px;
 .work_single_page_feature img {
   width: 100%;
 }
-
 	
 }
 
 
-
-/*		Mobile Layout: 320px.
+/*	Mobile Layout: 320px.
 		Gutters: 24px.
 		Outer margins: 34px.
 		Inherits styles from: Default Layout.
@@ -241,7 +239,7 @@ margin-right: 0;
 
 
 
-/*		Wide Mobile Layout: 480px.
+/*	Wide Mobile Layout: 480px.
 		Gutters: 24px.
 		Outer margins: 22px.
 		Inherits styles from: Default Layout, Mobile Layout.
@@ -383,7 +381,7 @@ px      68    160    252    344    436    */
 }
 
 
-/*	Retina media query.
+/*Retina media query.
 	Overrides styles for devices with a 
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
