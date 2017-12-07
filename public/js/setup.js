@@ -310,7 +310,7 @@ function initializeGallery() {
 
 
         // Changes opacity of the image
-        $(this).find("img").css("opacity", "0.5");
+        $(this).find("images").css("opacity", "0.5");
 
         // On hover off
         $(this).hover(function () {
@@ -320,7 +320,7 @@ function initializeGallery() {
             $(this).find(".actions").hide();
 
             // Changes opacity of the image back to normal
-            $(this).find("img").css("opacity", "1");
+            $(this).find("images").css("opacity", "1");
 
         });
     });
@@ -401,7 +401,7 @@ function setupPrettyPhoto() {
 function setupTinyMCE() {
     $('textarea.tinymce').tinymce({
         // Location of TinyMCE script
-        script_url: 'js/tiny-mce/tiny_mce.js',
+        script_url: '/js/tiny-mce/tiny_mce.js',
 
         // General options
         theme: "advanced",
@@ -439,7 +439,7 @@ function setDatePicker(containerElement) {
     var datePicker = $('#' + containerElement);
     datePicker.datepicker({
         showOn: "button",
-        buttonImage: "img/calendar.gif",
+        buttonImage: "images/calendar.gif",
         buttonImageOnly: true
     });
 }

@@ -75,7 +75,7 @@ h1 a {
   text-align: left;
 }
 
-.header-repeat{background:url(../img/header-repeat.jpg) repeat-x;}
+.header-repeat{background:url(../images/header-repeat.jpg) repeat-x;}
 
 #branding a{color:#A1EAFF; font-weight:normal;}
 #branding a:hover{color:#fff;}
@@ -128,7 +128,7 @@ h2#page-heading {
 .box h2 a,
 .box h2 a.visible {
 	color:#1B548D;
-	background:url("../img/switch_minus.gif") 97% 50% no-repeat;
+	background:url("../images/switch_minus.gif") 97% 50% no-repeat;
 	display:block;
 	padding:6px 12px;
 	margin:-6px -12px;
@@ -152,7 +152,7 @@ h2#page-heading {
 
 .box h2 a.hidden,
 .box h2 a.hidden:hover {
-	background-image: url("../img/switch_plus.gif");
+	background-image: url("../images/switch_plus.gif");
 }
 .box h2 a:hover {
 	background-color:transparent;
@@ -252,16 +252,16 @@ ul.section li {
 
 }
 ul.section li a {
-	background:url(../img/sidemenu-repeat.jpg) repeat-x;
+	background:url(../images/sidemenu-repeat.jpg) repeat-x;
 	line-height:26px;
 	padding-left:28px;
 }
 ul.section li a:hover {
-	background:url(../img/sidemenu-repeat-hover.jpg) repeat-x;
+	background:url(../images/sidemenu-repeat-hover.jpg) repeat-x;
 }
 ul.section li a:active {
 	color:#1B548D;
-	background:url(../img/sidemenu-repeat-hover.jpg) repeat-x;
+	background:url(../images/sidemenu-repeat-hover.jpg) repeat-x;
 }
 ul.section li li a {
 	background:#ddd;
@@ -291,15 +291,15 @@ ul.section ul.current li a:active {
 }
 ul.section li a.current {
 	color:#1B548D;
-	background:url(../img/sidemenu-repeat-hover.jpg) repeat-x;
+	background:url(../images/sidemenu-repeat-hover.jpg) repeat-x;
 }
 ul.section li a.current:hover {
 	color:#1B548D;
-	background:url(../img/sidemenu-repeat-hover.jpg) repeat-x;
+	background:url(../images/sidemenu-repeat-hover.jpg) repeat-x;
 }
 ul.section li a.current:active {
 	color:#1B548D;
-	background:url(../img/sidemenu-repeat-hover.jpg) repeat-x;
+	background:url(../images/sidemenu-repeat-hover.jpg) repeat-x;
 }
 ul.section li a.active {
 	background:#fff;
@@ -750,19 +750,19 @@ img.right
 }
 
 .paginate_disabled_previous {
-	background-image: url(../img/table/back_disabled.png);
+	background-image: url(../images/table/back_disabled.png);
 }
 
 .paginate_enabled_previous {
-	background-image: url(../img/table/back_enabled.png);
+	background-image: url(../images/table/back_enabled.png);
 }
 
 .paginate_disabled_next {
-	background-image: url(../img/table/forward_disabled.png);
+	background-image: url(../images/table/forward_disabled.png);
 }
 
 .paginate_enabled_next {
-	background-image: url(../img/table/forward_enabled.png);
+	background-image: url(../images/table/forward_enabled.png);
 }
 
 
@@ -799,23 +799,23 @@ table.display th{ /* background:#8f8f8f;   */ }
 
 
 .sorting_asc {
-	background: #8f8f8f url(../img/table/sort_asc.png) no-repeat center right; padding:8px 5px; text-align:left; color:#fff;
+	background: #8f8f8f url(../images/table/sort_asc.png) no-repeat center right; padding:8px 5px; text-align:left; color:#fff;
 }
 
 .sorting_desc {
-	background: #8f8f8f url(../img/table/sort_desc.png) no-repeat center right; padding:8px 5px; text-align:left; color:#fff;
+	background: #8f8f8f url(../images/table/sort_desc.png) no-repeat center right; padding:8px 5px; text-align:left; color:#fff;
 }
 
 .sorting {
-	background:#8f8f8f   url(../img/table/sort_both.png) no-repeat center right; padding:8px 5px; text-align:left; color:#fff;
+	background:#8f8f8f   url(../images/table/sort_both.png) no-repeat center right; padding:8px 5px; text-align:left; color:#fff;
 }
 
 .sorting_asc_disabled {
-	background: #8f8f8f url(../img/table/sort_asc_disabled.png) no-repeat center right; padding:8px 5px; text-align:left; color:#fff;
+	background: #8f8f8f url(../images/table/sort_asc_disabled.png) no-repeat center right; padding:8px 5px; text-align:left; color:#fff;
 }
 
 .sorting_desc_disabled {
-	background: #8f8f8f url(../img/table/sort_desc_disabled.png) no-repeat center right; padding:8px 5px; text-align:left; color:#fff;
+	background: #8f8f8f url(../images/table/sort_desc_disabled.png) no-repeat center right; padding:8px 5px; text-align:left; color:#fff;
 }
 
 
@@ -948,7 +948,7 @@ td.details {
 
 /* Set default button colors */
 .btn, .btn-icon, .btn-mini,
-.btn:visited, .btn-icon:visited, .btn-mini:visited {  background-image: url(../img/bg-lite.png); background-color: #F90; border-color: #D58000; color: #FFF; }
+.btn:visited, .btn-icon:visited, .btn-mini:visited {  background-image: url(../images/bg-lite.png); background-color: #F90; border-color: #D58000; color: #FFF; }
 
 .btn:hover, .btn-icon:hover, .btn-mini:hover { background-color: #D58000; color: #FFF; }
 
@@ -1011,7 +1011,7 @@ td.details {
 .btn-navy,
 .btn-maroon,
 .btn-teal,
-.btn-grey { background-image: url(../img/bg-dark.png) !important; }
+.btn-grey { background-image: url(../images/bg-dark.png) !important; }
 
 
 /* 65% opacity for lighter colors */
@@ -1019,7 +1019,7 @@ td.details {
 .btn-orange,
 .btn-green,
 .btn-yellow,
-.btn-pink { background-image: url(../img/bg-lite.png) !important; }
+.btn-pink { background-image: url(../images/bg-lite.png) !important; }
 
 
 
@@ -1029,7 +1029,7 @@ td.details {
 
 .btn-icon span
 {
-	background-image: url(../img/btn-icons.png); 
+	background-image: url(../images/btn-icons.png); 
 	background-repeat: no-repeat; 
 	background-position: 0 0; 
 	width: 16px; 
@@ -1057,7 +1057,7 @@ td.details {
 
 	.btn-mini span 
 	{ 
-		background-image: url(../img/btn-icons.png); 
+		background-image: url(../images/btn-icons.png); 
 		background-repeat: no-repeat; 
 		display: block;
 		width: 16px; 
@@ -1093,7 +1093,7 @@ td.details {
 	
 	
 /* Transparent Button Styles */
-.btn-transparent, .btn-transparent:hover { background-image: url(../img/bg-lite.png); background-color: transparent; filter: none; border-color: transparent\0/; border-color: rgba(0,0,0,.4) !important; margin: 0 1em 0 0; }
+.btn-transparent, .btn-transparent:hover { background-image: url(../images/bg-lite.png); background-color: transparent; filter: none; border-color: transparent\0/; border-color: rgba(0,0,0,.4) !important; margin: 0 1em 0 0; }
 *+html .btn-transparent { border: none; }
 
 

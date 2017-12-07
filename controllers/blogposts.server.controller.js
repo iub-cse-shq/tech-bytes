@@ -60,10 +60,6 @@ exports.titleslogan = function(req, res) {
 	});
 };
 
-
-
-
-
 module.exports.list = function(req, res) {
   Blogpost.find(function(err, data) {
     if (err) {

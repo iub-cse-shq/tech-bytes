@@ -1,4 +1,4 @@
-﻿(function ($) {
+(function ($) {
     $.fn.extend({
         fancybutton: function () {
             return this.each(function () {
