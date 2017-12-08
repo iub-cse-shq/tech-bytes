@@ -25,6 +25,6 @@ require('./passport')();
 
 app.listen(app.get('port'), function(){
 	console.log('Server running');
-})
+});
 
 module.exports = app;

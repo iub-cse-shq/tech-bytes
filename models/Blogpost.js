@@ -1,41 +1,12 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var BlogpostSchema = {
-
-  title: {
-    type: String,
-    default: '',
-    trim: true,
-    required: 'Title required!'
-  },
   
-   category: {
+  category: {
     type: String,
     default: '',
     trim: true,
     required: 'Category required!'
-  },
-  
-  date: {
-    type: String,
-    default: '',
-    trim: true,
-    required: 'Date required!'
-  },
-  
-  image: {
-    type: String,
-    default: '',
-    trim:true,
-    required:'Image required!'
-    
-  },
-  
-  content: {
-    type: String,
-    default: '',
-    trim: true,
-    required:'Content required!'
   },
 
   user: {

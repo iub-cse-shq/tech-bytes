@@ -32,10 +32,6 @@ exports.contact = function(req, res) {
 	});
 };
 
-
-
-
-
 module.exports.list = function(req, res) {
   Article.find(function(err, data) {
     if (err) {

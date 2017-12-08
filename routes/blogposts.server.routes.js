@@ -9,12 +9,15 @@ module.exports = function(app){
 	
  app.route('/blogposts/addcat')
     	.get(blogposts.addcat);
-	
- app.route('/blogposts/addpost')
-     .get(blogposts.addpost);
-     
+    	
  app.route('/blogposts/catlist')
      .get(blogposts.catlist);
+     
+ app.route('/blogposts/categoryEdit/:blogpostId')
+    .get(blogposts.categoryEdit);
+     
+ app.route('/blogposts/addpost')
+     .get(blogposts.addpost);
      
  app.route('/blogposts/inbox')
      .get(blogposts.inbox);
@@ -27,11 +30,6 @@ module.exports = function(app){
       
  app.route('/blogposts/titleslogan')
       .get(blogposts.titleslogan);
-    
-    
-    
-    
-    
  
  app.route('/api/blogposts')
 	.get(blogposts.list)

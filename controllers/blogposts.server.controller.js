@@ -18,15 +18,34 @@ exports.addcat = function(req, res) {
 	});
 };
 
-exports.addpost = function(req, res) {
-	res.render('./../public/views/blogpost/addpost.ejs', {
-		user: req.user || null,
-		request: req
-	});
+exports.catlist = function(req, res){
+  Blogpost.find(function(err, data) {
+    if (err) {
+      return res.status(400).send({
+
+  				message: errorHandler.getErrorMessage(err)
+  			});
+    } else {
+      console.log("api called");
+
+       res.render('./../public/views/blogpost/catlist.ejs', {
+          user: req.user || null,
+          request: req,
+          blogposts: data
+        });
+    }
+  });
 };
 
-exports.catlist = function(req, res) {
-	res.render('./../public/views/blogpost/catlist.ejs', {
+exports.categoryEdit = function(req, res){
+  res.render('./../public/views/admin/categoryEdit.ejs', {
+    user: req.user || null,
+    request: req
+  });
+};
+
+exports.addpost = function(req, res) {
+	res.render('./../public/views/blogpost/addpost.ejs', {
 		user: req.user || null,
 		request: req
 	});

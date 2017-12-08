@@ -3,7 +3,7 @@ module.exports = function(app){
  var articles = require('./../controllers/articles.server.controller.js');
  var users = require('./../controllers/users.server.controller.js');
  
- app.route('/Main').get(articles.index);
+ app.route('/').get(articles.index);
  app.route('/post').get(articles.post);
  app.route('/about').get(articles.about);
  app.route('/contact').get(articles.contact);
